@@ -18,7 +18,7 @@ namespace IdentityAPI.Controllers
         [HttpGet]
         public IActionResult GetUser()
         {
-            throw new NotImplementedException();
+            return Ok("GET Method");
         }
 
         [HttpPost("User")]
